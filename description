@@ -1,0 +1,47 @@
+DarkWeb Scanner – Real-Time Threat Intelligence Dashboard
+📌 Project Overview
+DarkWeb Scanner is a web-based threat intelligence platform designed to simulate the monitoring of cyber threats posted on dark web forums. It enables users (e.g., cybersecurity analysts or students) to explore various types of threats such as credential leaks, malware sales, payment fraud, and phishing kits — all via an interactive and searchable dashboard.
+
+This project is ideal for demonstrating dark web threat detection concepts and can be a great showcase for cybersecurity students.
+
+🚀 Features
+🔐 User Login System (Username: admin, Password: password123)
+
+📊 Interactive Dashboard with dark-themed UI using Bootstrap
+
+🔍 Search Bar to filter threats by type or keywords (e.g., "payment fraud", "ransomware")
+
+➕ Add New Threats manually
+
+🧨 Pre-loaded Dataset of 50+ realistic fake dark web threats
+
+📚 FAQs/Help Section for user guidance
+
+🛠️ Tech Stack
+Frontend	Backend	Styling	Auth
+HTML	Flask	Bootstrap	Flask Sessions
+
+💻 How to Run
+Install Python + Flask
+
+bash
+Copy
+Edit
+pip install flask
+Save the code as app.py
+(Use the full script in the repository)
+
+Run the server
+
+bash
+Copy
+Edit
+python app.py
+Open in browser
+Visit http://127.0.0.1:5000
+Login with:
+
+Username: admin
+
+Password: password123
+
